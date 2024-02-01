@@ -132,3 +132,5 @@ dist/
 .Trashes
 ehthumbs.db
 Thumbs.db
+FileBrowser\FileBrowser\errorLog.txt
+FileBrowser/errorLog.txt
