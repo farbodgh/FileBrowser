@@ -132,5 +132,9 @@ dist/
 .Trashes
 ehthumbs.db
 Thumbs.db
-FileBrowser\FileBrowser\errorLog.txt
 FileBrowser/errorLog.txt
+*.vcxproj
+*.vcxproj
+*.filters
+FileBrowser/FileBrowser.vcxproj.filters
+FileBrowser/FileBrowser.vcxproj
