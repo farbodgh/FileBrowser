@@ -53,10 +53,10 @@ void SearchEngine::Search()
 		SearchingAgent::SearchInitialization(this->fileToBeSearched);
 		SearchingAgent agent;
 		//If the number of actual concurrent threads is less than 2, then we should use only one thread.	
-		//if(this->numberOfActuallConcurrentThreads < 2)
-		//{
+		if(this->numberOfActuallConcurrentThreads < 2)
+		{
 			agent.SearchingWithoutMultithreading(drives);
-		//}
+		}
 		endTime = std::chrono::steady_clock::now();
 		std::cout <<std::endl << "The search has finished." << std::endl;
 		std::cout << "The process tooks " << std::chrono::duration_cast<std::chrono::seconds>(endTime - startTime).count() << " seconds." << std::endl;
