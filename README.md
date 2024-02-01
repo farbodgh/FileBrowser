@@ -4,7 +4,7 @@
 This project aims to develop a performant file browser that leverages multi-threading capabilities to enhance file search efficiency on systems with more than one physical CPU thread. Designed to be cross-platform, it will support Windows, Linux, and macOS. The application offers flexible search functionalities to cater to various user needs, including full and partial file name matches, and the ability to return either the first match or all matches up to a specified limit.
 
 ## Key Features (Under Development)
-Note. **Currently, it only works on a system with one actual concurrent thread.
+**Note** Currently, it only works on a system with one actual concurrent thread.
 1. **Multi-Threading for Enhanced Search**: Utilizes multi-threading when multiple physical CPU threads are available, significantly improving search speed and efficiency.
 2. **Cross-Platform Compatibility**: Works seamlessly across Windows, Linux, and macOS.
 3. **Flexible Search Options**:
